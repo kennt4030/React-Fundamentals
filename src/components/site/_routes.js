@@ -22,7 +22,7 @@ export const routes = [ //these paths are arrays due to the square brackets
       path: '/functionalcomponent',
       exact: true,
       sidebar: () => <div>FunctionalComponentDemo</div>,
-      main: () => < FunctionalComponentDemo /> 
+      main: () => <div>< FunctionalComponentDemo /></div>
     },
     {
       path: '/JSXRules',
