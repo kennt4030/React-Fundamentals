@@ -20,12 +20,12 @@ const Sidebar = () => (
         <li><Link to="ClassComponentDemo">Class Component Demo</Link></li>
         <li><Link to="PropsDemo">Props Demo</Link></li>
         <li><Link to="LifeCycleCodepen">Life cycle Diagram</Link></li>
+        <li><Link to="/TimerPiecesApp">Time Based Apps</Link></li>
         <li><Link to="/movie">Movie Search App</Link></li>
         <li><Link to="/resources">Resources</Link></li>
-
       </ul>
     </div>
-    <div className="sidebar-route">
+  <div className="sidebar-route">
       {routes.map((route, index) => (
         <Route
           key={index}

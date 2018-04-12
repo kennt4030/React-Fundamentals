@@ -6,6 +6,7 @@ import PropsDemo from '../concepts/PropsDemo';
 import JSXRules from '../concepts/JSXRules';
 import JavaScriptConcepts from '../concepts/JavaScriptConcepts';
 import Codepen from '../concepts/LifeCycleCodepen';
+import TimePiecesApp from '../apps/timer-apps/TimePiecesApp';
 import MovieSearchApp from '../apps/movie-search-app/MovieApp';
 import Resources from './Resources';
 
@@ -66,6 +67,12 @@ export const routes = [ //these paths are arrays due to the square brackets
       exact: true,
       sidebar: () => <div>Life Cycle Diagram</div>,
       main: () => <Codepen />,
+    },
+    {
+      path: 'TimePiecesApp ',
+      exact: true,
+      sidebar: () => <div>Time Based Apps</div>,
+      main: () => <TimePiecesApp />
     },
     {
       path: '/movie',
